@@ -20,9 +20,7 @@ def iss_position():
     # get iss position
     iss_latitude = float(data["iss_position"]["latitude"])
     iss_longitude = float(data["iss_position"]["longitude"])
-
     results = [iss_latitude, iss_longitude]
-
     return results
 
 
